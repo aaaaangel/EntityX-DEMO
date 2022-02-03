@@ -15,8 +15,4 @@ int main() {
   while (T--) {
     app.update(T);
   }
-
-  // glfw: terminate, clearing all previously allocated GLFW resources.
-  // ------------------------------------------------------------------
-  glfwTerminate();
 }
