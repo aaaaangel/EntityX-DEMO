@@ -10,6 +10,7 @@
 #include <GLFW/glfw3.h>
 #include "systems/DebugLogSystem.h"
 #include "components/Components.h"
+#include "third_party/renderer/include/Shader.h"
 
 // settings
 const unsigned int SCR_WIDTH = 800;
@@ -50,6 +51,7 @@ private:
   unsigned int VAO;
   unsigned int EBO;
   unsigned int shaderProgram;
+  std::shared_ptr<Shader> shader;
 
 };
 
