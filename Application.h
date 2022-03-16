@@ -5,9 +5,11 @@
 #ifndef ENTITYX_DEMO_APPLICATION_H
 #define ENTITYX_DEMO_APPLICATION_H
 #include <iostream>
+#include <fstream>
 #include <entityx/entityx.h>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <stb_image.h>
 #include "systems/DebugLogSystem.h"
 #include "components/Components.h"
 #include "third_party/renderer/include/Shader.h"
